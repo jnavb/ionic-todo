@@ -10,12 +10,7 @@ export class TaskListPage {
 	tasks: Array<Task> = [];
 
   constructor(public navCtrl: NavController) {
-  	this.tasks = [
-  		{title:'Pan', status: 'open'},
-			{title:'Leche', status: 'open'},
-			{title:'Tomate', status: 'open'},
-			{title:'Platanos', status: 'open'}
-  	];
+  	this.tasks = [];
   }
 
   addItem(){
